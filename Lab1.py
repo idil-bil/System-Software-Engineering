@@ -1,5 +1,4 @@
 # student name: Idil Bil
-# student number: 21344189
 
 # A command-line Tic-Tac-Toe game 
 from ast import Or

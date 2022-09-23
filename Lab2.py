@@ -1,6 +1,5 @@
 #Lab 2
 #student name:  Idil Bil
-#student number: 21344189
 
 from tkinter import *
 #do not import any more modules

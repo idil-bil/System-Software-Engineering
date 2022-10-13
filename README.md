@@ -9,3 +9,6 @@ A simple GUI based app that allows us to add, subtract, multiply and divide rati
 
 ### Lab 3
 Implementation of a sudoku solution validator in two ways. First  a single process version of the complete program, and then rewrite it so that the validation tasks are done using multiple processes, each responsible only for a portion of validating the puzzle.
+
+### Lab 3
+Implementation of a multithreaded sorting program that sorts a list of integers.

@@ -12,3 +12,6 @@ Implementation of a sudoku solution validator in two ways. First  a single proce
 
 ### Lab 4
 Implementation of a multithreaded sorting program that sorts a list of integers.
+
+### Lab 5
+Multithreaded program with a specific python implementation of the producer-consumer synchronization problem. 

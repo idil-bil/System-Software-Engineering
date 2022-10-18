@@ -1,5 +1,4 @@
 #student name:  Idil Bil
-#student number: 21344189
 
 import threading
 import random #is used to cause some randomness 

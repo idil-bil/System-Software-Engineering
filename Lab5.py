@@ -52,12 +52,12 @@ def producer() -> None:
         print(f"DEBUG: {item} produced")
 
         empty.acquire()       #producer thread acquires the number of empty slots, decreases them by one and goes until theres none left
+        
         mutex.acquire()       #lock on, in critical section
-
         buffer.insert(item)   #stores the produced item in the circular buffer
-
-        full.release()        #increases the number of full slots by one
-        mutex.release()       #lock off       
+        mutex.release()       #lock off    
+        
+        full.release()        #increases the number of full slots by one    
 
 def consumer() -> None:
     """
@@ -67,12 +67,12 @@ def consumer() -> None:
     for _ in range(SIZE * 2): #we just consume twice the buffer size for testing
 
         full.acquire()          #consumer thread acquires the number of full slots, decreases them one by one and goes until theres none left
+        
         mutex.acquire()         #lock on, in critical section 
-
         item = buffer.remove()  #removes the item from the circular buffer
-
-        empty.release()         #increases the number of empty slots by one
         mutex.release()         #lock off
+        
+        empty.release()         #increases the number of empty slots by one
 
         #use the following code as is
         def waitForItemToBeConsumed(item) -> None: #inner function; use as is

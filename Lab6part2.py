@@ -1,5 +1,4 @@
 #student name:   Idil Bil
-#student number: 21344189
 
 import multiprocessing
 import random #is used to cause some randomness 

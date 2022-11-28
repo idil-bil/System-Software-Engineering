@@ -24,7 +24,7 @@ Dining philosophers solution implementions:
 - Allow a philosopher to pick up their chopsticks only if both chopsticks are available.
 - Use an asymmetric solution, an odd philosopher picks up first their left chopstick and then their right chopstick, whereas an even philosopher picks up their right first and then their left chopstick
 
-## Labs
+## Project
 ### Part 1
 Implementing a multithreaded snake game with graphic user interface. 
 

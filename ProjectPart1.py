@@ -1,6 +1,4 @@
-# Group#:           G2
 # Student Names:    Idil Bil & Suhail Khalil
-# student numbers:  21344189 - 56517816
 
 """
     This program implements a variety of the snake 
@@ -295,7 +293,7 @@ if __name__ == "__main__":
 
 
 
-    #OLD ATTEMPTS: Dr Farshid told us to include old attempts so we will keep them here for clarity and cleanliness.
+    #OLD ATTEMPTS: will keep them here for clarity and cleanliness.
 
     #INITAL ATTEMPT 1: (for CreateNewPrey) Tried to generate prey in positions where both the x and y coords are multiples of 5 but not 10 to simplify prey capture, which is incorrect
         # x , y = -1, -1 

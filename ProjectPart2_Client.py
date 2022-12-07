@@ -1,6 +1,4 @@
-# Group#:           G2
 # Student Names:    Idil Bil & Suhail Khalil
-# student numbers:  21344189 - 56517816
 
 import socket
 import time
